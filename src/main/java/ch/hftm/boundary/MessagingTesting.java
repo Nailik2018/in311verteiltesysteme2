@@ -7,10 +7,11 @@ import io.smallrye.mutiny.Multi;
 @ApplicationScoped
 public class MessagingTesting {
 
-    @Outgoing("source")
-    public Multi<String> source() {
-        return Multi.createFrom().items("hallo", "böse", "quarkus", "fans");
-    }
+//    Für TestResource.java Wichtig: Die source()-Methode aus der Messaging-Klasse darf nicht mehr vorhanden sein.
+//    @Outgoing("source")
+//    public Multi<String> source() {
+//        return Multi.createFrom().items("hallo", "böse", "quarkus", "fans");
+//    }
 
     @Incoming("source")
     @Outgoing("processed-a")
