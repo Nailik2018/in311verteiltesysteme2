@@ -1,4 +1,4 @@
-package ch.hftm;
+package ch.hftm.boundary;
 
 import jakarta.ws.rs.GET;
 import jakarta.ws.rs.Path;
