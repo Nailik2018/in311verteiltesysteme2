@@ -11,7 +11,8 @@ import org.eclipse.microprofile.reactive.messaging.Emitter;
 public class TestResource {
 
     @Inject
-    @Channel("source")
+//    @Channel("source") // Wichtig: Der Channel-Name darf nicht mehr "source" heisen
+    @Channel("string-source")
     Emitter<String> emitter;
 
     @GET
