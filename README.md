@@ -1,5 +1,18 @@
 # code-with-quarkus
 
+## Description
+```
+swaggerui:
+http://localhost:8881/q/dev-ui/io.quarkus.quarkus-smallrye-openapi/swagger-ui
+quarkus
+http://localhost:8881/
+querkus dev
+http://localhost:8881/q/dev-ui/extensions
+
+command to start the application
+./mvnw quarkus:dev
+```
+
 This project uses Quarkus, the Supersonic Subatomic Java Framework.
 
 If you want to learn more about Quarkus, please visit its website: https://quarkus.io/ .
